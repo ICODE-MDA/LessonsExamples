@@ -1,0 +1,14 @@
+ossimTileToIplFilter_1.cpp	modified to use 3-band imagery
+				first set of changes
+
+ossimTileToIplFilter_2.cpp	thresholds image and adds blobs function
+				second set of changes, includes changes to
+				the ProcessImage.cpp file
+
+ProcessImage_2.cpp		some comments were added to show additional
+				functionality, this code was modified during 
+				the same course session as the 
+				ossimTileToIplFilter_2.cpp file
+
+ossimTileToIplFilter_3.cpp	modified to ____
+				third set of changes
