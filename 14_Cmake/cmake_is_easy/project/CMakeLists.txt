@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( MuestraImagen )
+find_package( OpenCV REQUIRED )
+add_executable( MuestraImagen MuestraImagen )
+target_link_libraries( MuestraImagen ${OpenCV_LIBS} )

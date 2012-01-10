@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( openCvThreshold )
+#find_package( OpenCV REQUIRED )
+add_executable( openCvThreshold openCvThreshold )
+include_directories( openCvThreshold ${OPENCV_INCLUDE_DIR})
+target_link_libraries( openCvThreshold ${OPENCV_LIBRARIES} )

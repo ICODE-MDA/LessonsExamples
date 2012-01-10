@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( openCvWienerFilter )
+#find_package( OpenCV REQUIRED )
+add_executable( openCvWienerFilter openCvWienerFilter )
+include_directories( openCvWienerFilter ${OPENCV_INCLUDE_DIR})
+target_link_libraries( openCvWienerFilter ${OPENCV_LIBRARIES} )

@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8)
+project( OpenCVThresholdAndExtractBlobs )
+#find_package( OpenCV REQUIRED )
+FILE(GLOB SOURCE_FILES *.cpp)
+add_executable( OpenCVThresholdAndExtractBlobs ${SOURCE_FILES} )
+include_directories( OpenCVThresholdAndExtractBlobs ${OPENCV_INCLUDE_DIR})
+target_link_libraries( OpenCVThresholdAndExtractBlobs ${OPENCV_LIBRARIES} )
+
+message("====Project: OpenCVThresholdAndExtractBlobs====")
+message("====USING THE FOLLOWING LOCATIONS====") 
+message("SOURCE FILES:			${SOURCE_FILES}")
+message("OPENCV_INCLUDE_DIR:		${OPENCV_INCLUDE_DIR}")
+message("OPENCV_LIBRARIES:		${OPENCV_LIBRARIES}")

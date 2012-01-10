@@ -1,0 +1,5 @@
+camshift with 10, 40, 30
+convexhull
+find_obj
+inpaint (select area with mouse, hit "i" to inpaint, hit "r" to reset
+lkdemo click on point to track it
