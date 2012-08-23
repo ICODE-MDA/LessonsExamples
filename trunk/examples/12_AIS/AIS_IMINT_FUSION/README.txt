@@ -1,0 +1,1 @@
+for the program to work, you will need to copy the two csv files in this directory to be next to the fusionApp.exe
