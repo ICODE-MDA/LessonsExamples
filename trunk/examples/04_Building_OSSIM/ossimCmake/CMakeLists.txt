@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 2.8)
+project( ossimCmakeApp )
+
+FILE(GLOB SOURCE_FILES *.cpp)
+set(LIBRARIES ${OSSIM_LIBRARIES} )
+set(INCLUDES ${OSSIM_INCLUDE_DIR} )
+add_executable( ossimCmakeApp ${SOURCE_FILES} )
+include_directories( ossimCmakeApp ${INCLUDES})
+target_link_libraries( ossimCmakeApp ${LIBRARIES} )
+
+message("====Project: ossimCmakeApp ====")
+message("====USING THE FOLLOWING LOCATIONS====") 
+message("SOURCE FILES:			${SOURCE_FILES}")
+message("OSSIM_INCLUDE_DIR:		${OSSIM_INCLUDE_DIR}")
+message("OSSIM_LIBRARIES:		${OSSIM_LIBRARIES}")
